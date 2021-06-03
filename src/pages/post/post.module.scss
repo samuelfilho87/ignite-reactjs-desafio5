@@ -1,1 +1,45 @@
-// TODO
+.postBanner {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.postContent {
+  h1 {
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  h2 {
+    margin: 64px 0 48px 0;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 18px;
+    color: var(--gray-500);
+  }
+}
+
+.postStatus {
+  font-size: 14px;
+  color: var(--gray-600);
+
+  display: flex;
+
+  span {
+    display: flex;
+    align-items: center;
+
+    & + span {
+      margin-left: 24px;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+  }
+}

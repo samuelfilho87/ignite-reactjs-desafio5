@@ -1,1 +1,10 @@
-// TODO
+.content {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-bottom: 64px;
+  color: var(--gray-100);
+  font-family: 'Inter', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+}
